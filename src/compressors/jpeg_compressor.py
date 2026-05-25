@@ -31,8 +31,7 @@ class JPEGCompressor(Compressor):
                 quote(result_item.tmp_filename),
             )
         else:  # lossless compression
-            if self.settings.new_file:
-                command = jpegoptim2.format(
-                    quote(result_item.filename), quote(result_item.tmp_filename)
-                )
+            command = jpegoptim2.format(
+                quote(result_item.filename), quote(result_item.tmp_filename)
+            )
         return command
