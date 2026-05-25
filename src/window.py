@@ -1,6 +1,6 @@
 import os
 import subprocess
-from gi.repository import Gtk, Gdk, Gio, GLib, Adw, GObject
+from gi.repository import Gtk, Gdk, Gio, GLib, Adw
 
 from .compressors.png_compressor import PNGCompressor
 from .compressors.jpeg_compressor import JPEGCompressor
@@ -358,7 +358,7 @@ class CurtailWindow(Adw.ApplicationWindow):
             license_type=Gtk.License.GPL_3_0,
             website="https://github.com/Huluti/Curtail",
             issue_url="https://github.com/Huluti/Curtail/issues/new",
-            version="1.16.1",
+            version="1.16.2",
             developers=["Hugo Posnic https://github.com/Huluti"],
             designers=[
                 "Jakub Steiner https://github.com/jimmac",

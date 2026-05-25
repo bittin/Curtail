@@ -15,3 +15,6 @@ fix:
 
 types:
 	uv run ty check
+
+update_deps:
+	uv lock --upgrade

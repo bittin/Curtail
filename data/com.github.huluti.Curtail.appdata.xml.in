@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <component type="desktop-application">
   <id>com.github.huluti.Curtail</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -7,9 +7,11 @@
   <name translate="no">Curtail</name>
   <summary>Compress your images</summary>
   <description>
-    <p>Optimize your images with Curtail, a useful image compressor that supports PNG, JPEG, WebP
+    <p
+        >Optimize your images with Curtail, a useful image compressor that supports PNG, JPEG, WebP
       and SVG file types.</p>
-    <p>It supports both lossless and lossy compression modes with an option to whether keep or not
+    <p
+        >It supports both lossless and lossy compression modes with an option to whether keep or not
       metadata of images.</p>
   </description>
   <developer id="io.github.huluti">
@@ -45,6 +47,14 @@
   <translation type="gettext">curtail</translation>
   <launchable type="desktop-id">com.github.huluti.Curtail.desktop</launchable>
   <releases>
+  <release version="1.16.2" date="2026-05-25">
+      <description translate="no">
+      <p>Here's the changelog of this version:</p>
+      <ul>
+          <li>Fix JPG compression in non-safe mode</li>
+      </ul>
+    </description>
+  </release>
     <release version="1.16.1" date="2026-05-15">
         <description translate="no">
         <p>Here's the changelog of this version:</p>
@@ -93,14 +103,17 @@
         <p>Here's the changelog of this version:</p>
         <ul>
           <li>Add D-Bus service file. Thank's to @City-busz</li>
-          <li>Add new preference to select between prefix and suffix for new files. Thank's to @rubenmvc</li>
+          <li
+                    >Add new preference to select between prefix and suffix for new files. Thank's to @rubenmvc</li>
           <li>Update jpegoptim</li>
           <li>Update to python 3.13</li>
           <li>Update GNOME Runtime to 49</li>
           <li>Update translations</li>
           <li>Fix handling file not found error. Thank's to @City-busz</li>
-          <li>Raise existing window instead of opening new one on activation. Thank's to @City-busz</li>
-          <li>Prevent creation of new file when skipped. Thank's to @ARAKHN1D</li>
+          <li
+                    >Raise existing window instead of opening new one on activation. Thank's to @City-busz</li>
+          <li
+                    >Prevent creation of new file when skipped. Thank's to @ARAKHN1D</li>
         </ul>
       </description>
     </release>
@@ -109,8 +122,10 @@
         <p>Here's the changelog of this version:</p>
         <ul>
           <li>Add multi-threading</li>
-          <li>Add new preference to select between prefix and suffix for new files. Thank's to @rubenmvc</li>
-          <li>Use AdwToggleGroup for lossless/lossy selector. Thank's to @ARAKHN1D</li>
+          <li
+                    >Add new preference to select between prefix and suffix for new files. Thank's to @rubenmvc</li>
+          <li
+                    >Use AdwToggleGroup for lossless/lossy selector. Thank's to @ARAKHN1D</li>
           <li>Update oxipng</li>
           <li>Update GNOME Runtime to 48</li>
           <li>Update translations</li>
@@ -122,9 +137,12 @@
         <p>Here's the changelog of this version:</p>
         <ul>
           <li>"Open image" and "Show in folder" actions</li>
-          <li>Indicate that file compression was skipped. Thank's to @ARAKHN1D</li>
-          <li>Use file data to guess content type in addition to extension. Thank's to @sheepy0125</li>
-          <li>Improve skipping if output is larger than input. Thank's to @ARAKHN1D</li>
+          <li
+                    >Indicate that file compression was skipped. Thank's to @ARAKHN1D</li>
+          <li
+                    >Use file data to guess content type in addition to extension. Thank's to @sheepy0125</li>
+          <li
+                    >Improve skipping if output is larger than input. Thank's to @ARAKHN1D</li>
           <li>Update dependencies. Thank's to @PunkPangolin</li>
           <li>Update translations</li>
         </ul>
@@ -142,12 +160,15 @@
       <description translate="no">
         <p>Here's the changelog of this version:</p>
         <ul>
-          <li>Always restore original files when compression produces larger files. Thank's to
+          <li
+                    >Always restore original files when compression produces larger files. Thank's to
             @ARAKHN1D</li>
-          <li>Notify when no files are found in a folder. Thank's to @ARAKHN1D</li>
+          <li
+                    >Notify when no files are found in a folder. Thank's to @ARAKHN1D</li>
           <li>Add Norwegian Bokmaal translations Thank's to @bragefuglseth</li>
           <li>Update translations</li>
-          <li>Use new libadwaita row widgets. Thank's to @bragefuglset and @ARAKHN1D</li>
+          <li
+                    >Use new libadwaita row widgets. Thank's to @bragefuglset and @ARAKHN1D</li>
           <li>Update Gnome Runtime to 47</li>
           <li>Fix a shell injection vulnerability. Thank's to @gycsaba96</li>
         </ul>
@@ -162,7 +183,8 @@
           <li>Add Hindi translation. Thank's to @Scrambled777</li>
           <li>Update OxiPNG to v9.1.1</li>
           <li>Update translations</li>
-          <li>Change safe mode directly from warning banner button. Thank's to @ARAKHN1D</li>
+          <li
+                    >Change safe mode directly from warning banner button. Thank's to @ARAKHN1D</li>
           <li>Fix opening files with "Open With...". Thank's to @ARAKHN1D</li>
           <li>Fix DnD with nested folders (recursive). Thank's to @ARAKHN1D</li>
           <li>Fix translations not applied to the help overlay window</li>
@@ -181,11 +203,13 @@
       <description translate="no">
         <p>Here's the changelog of this version:</p>
         <ul>
-          <li>Correct title case, reword subtitles, remove periods. Thank's to @MonsterObserver</li>
+          <li
+                    >Correct title case, reword subtitles, remove periods. Thank's to @MonsterObserver</li>
           <li>Use proper arrow character. Thank's to @kra-mo</li>
           <li>Update translations</li>
           <li>Fix drag and drop for folders. Thank's to @ARAKHNID</li>
-          <li>Appstream data improvements. Thank's to @yakushabb and @bertob</li>
+          <li
+                    >Appstream data improvements. Thank's to @yakushabb and @bertob</li>
         </ul>
       </description>
     </release>
@@ -193,10 +217,12 @@
       <description translate="no">
         <p>Here's the changelog of this version:</p>
         <ul>
-          <li>Add "Bulk Compress Directory (recursive)" feature. Thank's to @rk234</li>
+          <li
+                    >Add "Bulk Compress Directory (recursive)" feature. Thank's to @rk234</li>
           <li>Add simplified Chinese translation. Thank's to @yuhldr</li>
           <li>Add Ukrainian translation. Thank's to @Vovkiv.</li>
-          <li>Add categories and keywords support in appdata. Thank's to @sabriunal</li>
+          <li
+                    >Add categories and keywords support in appdata. Thank's to @sabriunal</li>
           <li>Improve clarity of preference options</li>
           <li>Update OxiPNG to v9</li>
           <li>Update translations</li>
@@ -294,7 +320,8 @@
           <li>Update Dutch translation. Thank's to @Vistaus.</li>
           <li>Update Croatian translation. Thank's to @milotype.</li>
           <li>Update German translation. Thank's to @Etamuk.</li>
-          <li>Update Portuguese Brazil translation. Thank's to @fulvio-alves.</li>
+          <li
+                    >Update Portuguese Brazil translation. Thank's to @fulvio-alves.</li>
           <li>Update Swedish translation. Thank's to @eson57.</li>
         </ul>
       </description>
@@ -315,12 +342,15 @@
           <li>Add WebP support. Thank's to @olokelo.</li>
           <li>Add Croatian translation. Thank's to @milotype.</li>
           <li>Update Spanish translation. Thank's to @oscfdezdz.</li>
-          <li>Update Portuguese (Brazil) translation. Thank's to @fulvio-alves.</li>
+          <li
+                    >Update Portuguese (Brazil) translation. Thank's to @fulvio-alves.</li>
           <li>Don't accept empty file. Thank's to @akozlovskiy119.</li>
           <li>Better guess of extensions. Thank's to @akozlovskiy119.</li>
-          <li>Use correct file listing format for drag-and-drop. Thank's to @akozlovskiy119.</li>
+          <li
+                    >Use correct file listing format for drag-and-drop. Thank's to @akozlovskiy119.</li>
           <li>Fix directory handling. Thank's to @akozlovskiy119.</li>
-          <li>Fix missing icon in LXQt, MATE, XFCE (#76). Thank's to @apandada1.</li>
+          <li
+                    >Fix missing icon in LXQt, MATE, XFCE (#76). Thank's to @apandada1.</li>
         </ul>
       </description>
     </release>
@@ -336,9 +366,11 @@
           <li>Better appdata summary.</li>
           <li>Update Spanish translation.</li>
           <li>Compress images with extensions in uppercase.</li>
-          <li>Center preferences window header switcher. Thank's to @andrenete.</li>
+          <li
+                    >Center preferences window header switcher. Thank's to @andrenete.</li>
           <li>Fix columns sorting. Thank's to @andrenete.</li>
-          <li>Don't allow empty suffix (incorrect compression for JPEG). Thank's to @andrenete.</li>
+          <li
+                    >Don't allow empty suffix (incorrect compression for JPEG). Thank's to @andrenete.</li>
         </ul>
       </description>
     </release>
@@ -444,8 +476,10 @@
         <ul>
           <li>Toggle the suffix entry according to new file option</li>
           <li>Scroll automatically to last compressed image in the list</li>
-          <li>Add save info label also on homepage and displace it at bottom</li>
-          <li>Improve handling of filenames to avoid some errors (e.g., folders)</li>
+          <li
+                    >Add save info label also on homepage and displace it at bottom</li>
+          <li
+                    >Improve handling of filenames to avoid some errors (e.g., folders)</li>
           <li>Various fixes</li>
         </ul>
       </description>

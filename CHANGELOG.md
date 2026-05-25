@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## UNRELEASED
 
+## 1.16.2 - 2026-05-25
+### Fixed
+- Fix JPG compression in non-safe mode
+
 ## 1.16.1 - 2026-05-15
 ### Changed
 - Fix translations
