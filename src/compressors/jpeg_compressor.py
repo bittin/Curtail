@@ -17,8 +17,8 @@ class JPEGCompressor(Compressor):
             jpegoptim2 += " --all-progressive"
 
         if not self.settings.metadata:
-            jpegoptim += " --strip-all"
-            jpegoptim2 += " --strip-all"
+            jpegoptim += " --strip-all --keep-icc"
+            jpegoptim2 += " --strip-all --keep-icc"
 
         if self.settings.file_attributes:
             jpegoptim += " --preserve --preserve-perms"
